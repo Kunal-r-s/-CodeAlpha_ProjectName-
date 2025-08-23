@@ -3,14 +3,16 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      background: #f4f4f4;
+      background: #0033CC;
     }
-
+h1{
       text-align: center;
-      margin-bottom: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+    margin-bottom: 20px;
     }
 
-    /* Filter Buttons */
+    
     .filter-btns {
       text-align: center;
       margin-bottom: 20px;
@@ -21,7 +23,7 @@
       padding: 10px 15px;
       border: none;
       border-radius: 8px;
-      background: #333;
+      background: #03094b;
       color: white;
       cursor: pointer;
       transition: 0.3s;
@@ -31,7 +33,7 @@
       background: #555;
     }
 
-    /* Gallery Grid */
+    
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -43,9 +45,11 @@
       height: 200px;
       object-fit: cover;
       border-radius: 10px;
+      border: solid;
+      box-shadow:-1px -3px 10px 5px rgba(13, 13, 13, 0.7);
       cursor: pointer;
       transition: transform 0.3s ease, filter 0.3s ease;
-    body {
+    
     }
 
     .gallery img:hover {
@@ -53,7 +57,7 @@
       filter: brightness(0.8);
     }
 
-    /* Lightbox */
+   
     .lightbox {
       display: none;
       position: fixed;
@@ -95,7 +99,7 @@
     .lightbox .next { right: 30px; }
 
     @media (max-width: 600px) {
-      body {
+      
       .gallery img { height: 150px; }
       .lightbox .close { font-size: 1.5rem; }
     }
