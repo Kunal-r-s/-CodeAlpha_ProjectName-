@@ -1,11 +1,16 @@
-header{
-
-    font-size: 32px;
-    color: #fff;
-    margin: 20px ;
-    margin-top: -610px;
-    margin-bottom: 120px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.Ti{
+  font-size: 54px;
+  font-weight: bold;
+ position:absolute;
+ top:0px;
+    left:50%;
+    margin:0;
+    transform:translateX(-50%);
+ 
+ 
+  color: #fff;
+  
+ 
 }
 body {
   font-family: Arial, sans-serif;
